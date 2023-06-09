@@ -1,0 +1,23 @@
+.datatable{
+    overflow-x: scroll;
+    margin-bottom: 40px;
+}
+table.dataTable{
+    padding-top: 20px;
+}
+table.dataTable td{
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 12px;
+}
+
+table.dataTable th{
+    font-size: 12px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    border:none;
+    border-radius: 10%;
+    background-color: #ed6c10 !important;
+    color: white !important;
+}
